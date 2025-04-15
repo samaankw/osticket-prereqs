@@ -95,10 +95,14 @@ Before moving forward with the setup, return to IIS Manager to continue with the
 <h2> Step 6: Enable Extensions in IIS </h2>
 <p> Return to IIS Manager and navigate to Sites > Default Web Site > osTicket. Once there, double-click on PHP Manager in the main window. Scroll down to the bottom of the screen and click on "Enable or Disable an Extension" under the PHP Extensions section.
 
-In the list that appears, locate the following extensions: php_imap.dll (this may already be enabled), php_intl.dll, and php_opcache.dll. Right-click on each one and select Enable to ensure they're active. These extensions are essential for osTicket to function properly, especially for features like email piping and internationalization.</p>
+In the list that appears, locate the following extensions:
+ -  php_imap.dll (this may already be enabled)
+ -  php_intl.dll,
+ -  php_opcache.dll. 
+Right-click on each one and select Enable to ensure they're active. These extensions are essential for osTicket to function properly, especially for features like email piping and internationalization.</p>
 
-<img src="https://i.imgur.com/bMXwpEU.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/NMz0MFd.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XyWWK9r.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/iVVLP1F.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <h2> Step 7: Refresh the osTicket Site in Your Browser</h2>
 <p>After enabling the necessary PHP extensions, return to your web browser and refresh the osTicket site. You should now see that the Intl Extension has a green checkmark next to it on the requirements page. This indicates that the extension is properly enabled and that your environment is correctly configured to proceed with the installation.</p>
 <img src="https://i.imgur.com/NMz0MFd.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
